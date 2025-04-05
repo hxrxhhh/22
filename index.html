@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Barsha! ✨</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;900&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="spinner"></div>
+        <div class="loader-text">Preparing something special for Barsha...</div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-content">
+                <h1 class="animate__animated animate__zoomIn">Happy Birthday Barsha!</h1>
+                <p class="subtitle animate__animated animate__fadeInUp animate__delay-1s">This day is all about YOU!</p>
+                <div class="photo-frame animate__animated animate__zoomIn animate__delay-2s">
+                    <img src="your-photo.jpg" alt="You and Barsha" class="main-photo">
+                    <div class="polaroid-effect"></div>
+                </div>
+                <button id="startBtn" class="animate__animated animate__bounceIn animate__delay-3s">
+                    Start the Celebration!
+                </button>
+            </div>
+            <div class="floating-hearts"></div>
+        </section>
+
+        <!-- Memory Lane -->
+        <section class="memory-lane" id="memories">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <div class="memory-grid">
+                <!-- Memory items will be added by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Birthday Message -->
+        <section class="message-section">
+            <div class="message-container">
+                <h2 class="section-title">To My Amazing Friend</h2>
+                <div class="message-content">
+                    <p>Dear Barsha,</p>
+                    <p>On your special day, I want you to know how much you mean to me...</p>
+                    <!-- More personalized message -->
+                </div>
+                <div class="signature">
+                    <p>With lots of love,</p>
+                    <p>Your Best Friend</p>
+                </div>
+            </div>
+            <div class="floating-balloons"></div>
+        </section>
+
+        <!-- Final Surprise -->
+        <section class="surprise-section">
+            <div class="surprise-content">
+                <h2>One Last Surprise!</h2>
+                <button id="surpriseBtn">Click Me!</button>
+            </div>
+        </section>
+
+        <!-- Audio Element -->
+        <audio id="birthdaySong" loop>
+            <source src="happy-birthday-song.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
